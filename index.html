@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+        integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-sm bg-success sticky-top shadow">
+        <div class="container-fluid">
+            <img src="https://lh3.googleusercontent.com/x9KH63GDjj2C6EH0q59L7lqKLskcsM9BEE-9aijFoNHK5VrazKI5ayRPJugJBabwW_o=w2400"
+                alt="Avatar Logo" style="width:40px;" class="rounded-pill navbar-nav">
+            <ul class="navbar-nav text-black fw-bold">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <!-- Button trigger modal -->
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Skills
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Skills</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section class="d-flex row">
+                        <span>JavaScript: 5</span>
+                        <span>Python: 7</span>
+                        <span>Java: 8</span>
+                        <span>HTML: 8</span>
+                        <span>Algorithm: 9</span>
+                    </section>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Personal Info-->
+    <main class="container-fluid">
+        <section class="mb-3">
+            <h1 class="text-center">Personal Info</h1>
+            <div class="row mx-5">
+                <div class="col-4">
+                    <img src="https://lh6.googleusercontent.com/BIboWjuU37PJt85KbR6-hrAcDAqo9xpUWrkRIYFMNcdHjruMVhh0yFJlJ02AIgFs8u0=w2400"
+                        class="img-fluid">
+                </div>
+                <div class="col-8">
+                    <h3>Arvyndito Bisma Nugraha</h3>
+                    <p>I graduated from Universitas Padjadjaran in 2021. From my experience, I learn about Mathematics,
+                        Physics, and Programming. List of my mastery about programming are:</p>
+                    <ul class="list-group">
+                        <li class="list-group-item">Python</li>
+                        <li class="list-group-item">Java</li>
+                        <li class="list-group-item">SQL</li>
+                        <li class="list-group-item">HTML</li>
+                    </ul>
+                    <p>From college, I was become Laboratory Assistant, provides education about MATLAB and
+                        Instrumentation. My Thesis is about Drone Simulation using A* and VRPPD with Python Language</p>
+                    <p>My Hobby is Photo Editing</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section class="border-bottom border-5 mb-3"></section>
+        <div class="container-fluid ">
+            <h1 class="text-center">Result of Photo Editing</h1>
+            <div class="row mb-3">
+                <img src="https://lh5.googleusercontent.com/8cDWlGriLrRUTTVm81Q49bU7u-BSuGZHlipEWvBr8bULjNjRp_nS31x3066mcTJDhx4=w2400"
+                    class="img-fluid col-4">
+                <img src="https://lh5.googleusercontent.com/NTkp2Ha9AVGkLMLs1tNWNKhJmWHMdc_ero3uQHrk2wCSNh0KJyl3XD6YLvdobOBfTMM=w2400"
+                    class="img-fluid col-4">
+                <img src="https://lh5.googleusercontent.com/EvtdtehIfkFRLIiFUog13iVrDUB9_ydG0flTU7ouWGq2ObLrVWQgEQAh2VFyJFu2W30=w2400"
+                    class="img-fluid col-4">
+
+            </div>
+            <div class="row mb-3">
+                <img src="https://lh4.googleusercontent.com/aPd2HS_PrbyziHwIqY55cD5fPXDp9QLyH0MrsfQKgRc0wJFhWkFtXzi10ZrmKLKcM0k=w2400"
+                    class="img-fluid col-4">
+                <img src="https://lh5.googleusercontent.com/ngfyRfGz2Q934LPdDGk71sWbslBTzgFtbEgPfbHY2fR7WAKrvExBH_4JnFfyzWGUBJ8=w2400"
+                    class="img-fluid col-4">
+                <img src="https://lh6.googleusercontent.com/HSgyI2hg4COiJYW3qTwsf3dtj1_gZ040Q7hsfy6Zr9oXyGz5actpqcjuJy6WHfQqE1c=w2400"
+                    class="img-fluid col-4">
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Navbar-->
+    <footer class="bg-success py-3">
+        <div class="container-fluid d-flex justify-content-between">
+            <span>Arvyndito Bisma Nugraha</span>
+            <section class="position-absolute start-50 translate-middle-x">
+                <a href="https://twitter.com/abisma_n_" target="_blank" class="mx-1"><i
+                        class="fa-brands fa-twitter fa-2xl"></i></a>
+                <a href="https://www.linkedin.com/in/arvyndito-bisma-nugraha/" target="_blank" class="mx-1"><i
+                        class="fa-brands fa-linkedin fa-2xl"></i></a>
+                <a href="https://www.instagram.com/abisma_n_/" target="_blank" class="mx-1"><i
+                        class="fa-brands fa-instagram fa-2xl"></i></a>
+            </section>
+            <span>2022</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
