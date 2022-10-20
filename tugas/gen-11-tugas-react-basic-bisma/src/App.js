@@ -7,9 +7,6 @@ function NotPass() {
 }
 
 function Pass() {
-  const [result, setResult] = React.useState('')
-  console.log(result)
-
   return <div>
     <p>Well done! you are old enough!</p>
     <p>Please answer this question</p>
@@ -17,6 +14,7 @@ function Pass() {
     <ButtonAnswer title="John F Kennedy" clicked={() => alert('Wrong Answer!')} />
     <ButtonAnswer title="Barrack Obama" clicked={() => alert('Wrong Answer!')} />
     <ButtonAnswer title="Abraham Lincoln" clicked={() => alert('Correct!')} />
+
   </div>
 }
 
@@ -29,6 +27,7 @@ function ButtonAnswer(args) {
 function App() {
   const [name, setName] = React.useState('User')
   const [age, setAge] = React.useState(0)
+  const [country, setCountry] = React.useState('Indonesia')
 
   let ageResult
 
@@ -41,13 +40,20 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello {name}, welcome to this react example</h1>
+      <h1>Hello {name} from {country}, welcome to this react example</h1>
       <form>
         <label>Enter your name:
           <input
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
+          />
+        </label> <br />
+        <label>Where are you from:
+          <input
+            type="text"
+            value={country}
+            onChange={(e) => setCountry(e.target.value)}
           />
         </label> <br />
         <label>Enter your age:
