@@ -1,6 +1,6 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import SekolahFunc from "./SekolahFunc";
-// import Sekolah from "./Sekolah";
+import Sekolah from "./Sekolah";
 
 export default class App extends Component {
 
@@ -26,13 +26,19 @@ export default class App extends Component {
       <button onClick={() => {
         this.state.showLife ? this.setState({ showLife: false }) : this.setState({ showLife: true })
       }} >
-        {this.state.showLife ? 'Hide' : 'Show'} School
+        Change into {this.state.showLife ? 'Class Lifecycle' : 'Function Lifecycle'}
       </button>
       {this.state.showLife ?
-        <SekolahFunc index={this.state.index} /> :
-        // <Sekolah index={this.state.index} /> :
-        null
-    }
+        <div>
+          <p>Current: Function Lifecycle</p>
+          <SekolahFunc index={this.state.index} />
+        </div>
+        :
+        <div>
+          <p>Current: Class Lifecycle</p>
+          <Sekolah index={this.state.index} />
+        </div>
+      }
     </div >
   }
 }

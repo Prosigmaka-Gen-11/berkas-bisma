@@ -31,7 +31,7 @@ export default class Sekolah extends Component {
     // Ketika sekolah ditampilkan
     componentDidMount() {
         this.showSchool()
-        alert('Show School')
+        alert('This is Class Lifecycle')
     }
 
     componentDidUpdate(propsBefore, stateBefore) {
@@ -52,7 +52,7 @@ export default class Sekolah extends Component {
 
     // Ketika sekolah dihidden
     componentWillUnmount() {
-        alert('School Hidden')
+        alert('Change format')
     }
 
     render() {

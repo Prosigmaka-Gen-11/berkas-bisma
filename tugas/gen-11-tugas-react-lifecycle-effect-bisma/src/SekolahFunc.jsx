@@ -25,11 +25,11 @@ export default function SekolahFunc(props) {
     useEffect(() => {
         // Ketika sekolah ditampilkan
         showSchool()
-        alert('Show School')
+        alert('This is function lifecycle')
 
         // Ketika sekolah dihidden
         return () => {
-            alert('School Hidden')
+            alert('Change format')
         }
     }, [])
 
