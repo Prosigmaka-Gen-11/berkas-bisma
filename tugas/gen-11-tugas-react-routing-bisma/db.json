@@ -1,0 +1,67 @@
+{
+  "biodata": [
+    {
+      "name": "Jaenudin Akmal",
+      "birthday": "1999-10-20",
+      "gender": "Male",
+      "programming": "SQL, Java, HTML",
+      "howMaster": "Advanced",
+      "quotes": "Never gonna give you up",
+      "id": 1
+    },
+    {
+      "name": "Junaedi",
+      "birthday": "1999-08-25",
+      "gender": "Male",
+      "programming": "SQL",
+      "howMaster": "Novice",
+      "quotes": "Never gonna let you down",
+      "id": 2
+    },
+    {
+      "name": "Aprilia",
+      "birthday": "2000-11-02",
+      "gender": "Female",
+      "programming": "Python, Java",
+      "howMaster": "Intermediate",
+      "quotes": "Never gonna roll and rolling beside you",
+      "id": 3
+    },
+    {
+      "name": "Jamet",
+      "birthday": "2022-10-06",
+      "gender": "Male",
+      "programming": "HTML, SQL",
+      "howMaster": "Master",
+      "quotes": "Try your best",
+      "id": 4
+    },
+    {
+      "name": "Lucia",
+      "birthday": "2022-10-18",
+      "gender": "Female",
+      "programming": "HTML, Python",
+      "howMaster": "Master",
+      "quotes": "Try your best",
+      "id": 5
+    },
+    {
+      "name": "Bryan",
+      "birthday": "2022-10-03",
+      "gender": "Male",
+      "programming": "Python, HTML, Java, SQL",
+      "howMaster": "Master",
+      "quotes": "Wadaw",
+      "id": 11
+    },
+    {
+      "name": "Wadaw",
+      "birthday": "2022-09-26",
+      "gender": "Male",
+      "programming": "Python, Java, SQL",
+      "howMaster": "Intermediate",
+      "quotes": "adaw",
+      "id": 12
+    }
+  ]
+}
