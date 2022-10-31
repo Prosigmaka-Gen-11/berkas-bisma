@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
 export default function Biodata() {
@@ -47,6 +47,9 @@ export default function Biodata() {
                         <td>{listOfBio.howMaster}</td>
                         <td>{listOfBio.quotes}</td>
                         <td>
+                            <Link to={'/biodata/' + listOfBio.id}>
+                                <button>Details</button>
+                            </Link>
                             <Link to={'/biodata/form/' + listOfBio.id}>
                                 <button>Edit</button>
                             </Link>

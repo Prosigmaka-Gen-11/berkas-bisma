@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Biodata from './pages/Biodata';
 import Form from './pages/Form';
 import BiodataLayout from './pages/BiodataLayout';
+import BiodataDetail from './pages/BiodataDetail';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
     element: <BiodataLayout />,
     children: [
       { path: "list", element: <Biodata /> },
+      { path: ":biodataId", element: <BiodataDetail /> },
       { path: "form", element: <Form />, children: [
         { path: ":biodataId", element: <Form /> }
       ] }
