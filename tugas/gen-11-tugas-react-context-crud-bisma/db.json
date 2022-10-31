@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "nama": "Junaedi",
+      "npm": "1902938",
+      "universitas": "ITB",
+      "id": 1
+    },
+    {
+      "nama": "Jamet",
+      "npm": "1902942",
+      "universitas": "ITB",
+      "id": 2
+    },
+    {
+      "nama": "Doni",
+      "npm": "83982318",
+      "universitas": "Unpas",
+      "id": 3
+    },
+    {
+      "nama": "Junet",
+      "npm": "1478121",
+      "universitas": "Unpad",
+      "id": 4
+    },
+    {
+      "nama": "Lucia",
+      "npm": "21932193",
+      "universitas": "Unpad",
+      "id": 5
+    }
+  ]
+}
